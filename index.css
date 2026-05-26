@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+}
+.contenedor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.segundo-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.grid {
+    width: 40rem;
+    height: 40rem;     
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1rem;
+}
